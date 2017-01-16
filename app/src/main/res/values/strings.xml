@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RADIO JAIHO</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="shout_box">SHOUT BOX</string>
+    <string name="live_radio">LIVE RADIO</string>
+    <string name="request_song">REQUEST SONG</string>
+    <string name="contact_us">CONTACT US</string>
+</resources>

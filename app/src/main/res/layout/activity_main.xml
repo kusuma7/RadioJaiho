@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kavya.radiojaiho.MainActivity">
+
+<Button
+    android:id="@+id/button_live_radio"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:text="Live Radio"
+    android:textSize="30dp"
+    android:background="@drawable/button_style"
+    android:layout_marginTop="35dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"/>
+    <Button
+        android:id="@+id/button_shout_box"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Shout Box"
+        android:textSize="30dp"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <Button
+        android:id="@+id/button_request_song"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Request a song"
+        android:textSize="30dp"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/button_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="About Us"
+        android:textSize="30dp"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <Button
+        android:id="@+id/button_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Contact Us"
+        android:textSize="30dp"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login with us @"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/text_website_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="www.radiojaiho.com"
+        android:textSize="25dp"
+       android:autoLink="web"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radio Jaiho , Life is a Music is an online radio created to entertain it’s listeners. \n\n
+Our shows are specially designed with various topics like General Knowledge, fun , entertainment and education etc. \n\n
+With our very own and dedicated audio servers we deliver the quality audio streaming. \n\n
+Our RJs are specially trained to provide the entertainment with their humor. \n\n
+We regularly check the recent trends in the market and does more than that as we are “Trend setters but not trend followers.” \n\n
+Any suggestions are highly appreciated. \n\n
+Write us at info@radiojaiho.com or contact us through the the form in contact us section."
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+</LinearLayout>
