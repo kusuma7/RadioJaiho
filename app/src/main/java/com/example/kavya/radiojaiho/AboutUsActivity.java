@@ -1,6 +1,5 @@
 package com.example.kavya.radiojaiho;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -18,7 +17,7 @@ public class AboutUsActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed(){
-        Intent intent = new Intent(AboutUsActivity.this, MainActivity.class);
-        startActivity(intent);
+
+        finish();
     }
 }

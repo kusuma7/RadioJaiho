@@ -1,6 +1,5 @@
 package com.example.kavya.radiojaiho;
 
-import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -80,7 +79,6 @@ public class LiveRadioActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed(){
-        Intent intent = new Intent(LiveRadioActivity.this, MainActivity.class);
-        startActivity(intent);
+       finish();
     }
 }

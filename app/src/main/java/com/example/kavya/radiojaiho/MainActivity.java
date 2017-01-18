@@ -80,11 +80,12 @@ public class MainActivity extends AppCompatActivity {
     public void onBackPressed(){
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         builder.setMessage("Are you sure you want to exit?");
-        builder.setCancelable(false);
+        builder.setCancelable(true);
         builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                MainActivity.super.onBackPressed();
+               // MainActivity.super.onBackPressed();
+                MainActivity.this.finish();
             }
         });
         builder.setNegativeButton("NO", new DialogInterface.OnClickListener() {

@@ -38,8 +38,7 @@ public class ContactUsActivity extends AppCompatActivity {
                 Intent email_contact_us = new Intent(Intent.ACTION_SEND);
                 email_contact_us.putExtra(Intent.EXTRA_EMAIL, new String[]{ to1});
                 email_contact_us.putExtra(Intent.EXTRA_SUBJECT, subject1);
-                email_contact_us.putExtra(Intent.EXTRA_TEXT, description1);
-                email_contact_us.putExtra(Intent.EXTRA_REFERRER_NAME, name1);
+                email_contact_us.putExtra(Intent.EXTRA_TEXT, "Name: " +name1 +'\n' +'\n' +description1 );
                 email_contact_us.setType("message/rfc822");
                 startActivity(Intent.createChooser(email_contact_us, "Choose an Email client :"));
             }
@@ -48,7 +47,7 @@ public class ContactUsActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed(){
-        Intent intent = new Intent(ContactUsActivity.this, MainActivity.class);
-        startActivity(intent);
+
+        finish();
     }
 }
